@@ -1,0 +1,35 @@
+.container {
+    padding: 200px 600px;
+}
+
+.display {
+    flex: 1 0 100%;
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 50px;
+    text-align: center;
+}
+
+.keypad {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    flex: 1 0 33%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.operations {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operator {
+    flex: 1 0 12%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
